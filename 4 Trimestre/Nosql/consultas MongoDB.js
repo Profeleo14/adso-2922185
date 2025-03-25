@@ -4,7 +4,7 @@ db.animales.find({Color:{$eq:"Negro"}})
 
 db.animales.find({ 
     $and: [
-        { tipo: { $eq: "Perro" } }, 
+        { tipo: { $eq: "Gato" } }, 
         { Color: { $eq: "Negro" } }
     ]
 });
